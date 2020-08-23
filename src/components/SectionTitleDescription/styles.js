@@ -26,5 +26,6 @@ export const StyledDescription = styled.h4`
     line-height: 28px;
     letter-spacing: -0.02em;
     color: #000000;
+    text-transform: none;
   }
 `;

@@ -20,4 +20,3 @@ class Calendar extends Component {
 }
 
 export default Calendar;
-

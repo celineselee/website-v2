@@ -8,6 +8,7 @@ import Footer from "./sections/Footer/Footer";
 import {StyledBodyWrapper, StyledSectionText} from "./res/globalStyles";
 import strings from "./res/strings";
 import CurrentCommittee from "./sections/CurrentCommittee/CurrentCommittee";
+import Events from "./sections/Events/Events";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <StyledSectionText id="getInvolved">
           {strings.getInvolved}
          <Calendar />
+         <Events/>
         </StyledSectionText>
 
         <StyledSectionText id="resources">
