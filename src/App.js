@@ -10,6 +10,7 @@ import strings from "./res/strings";
 import CurrentCommittee from "./sections/CurrentCommittee/CurrentCommittee";
 import PastCommittee from "./sections/PastCommittee/PastCommittee";
 
+
 class App extends Component {
   constructor(props) {
     super(props);
