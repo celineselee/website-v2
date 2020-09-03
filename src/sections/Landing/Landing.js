@@ -21,7 +21,6 @@ import instagram from "../../res/images/landing_insta_logo.svg";
 import linkedin from "../../res/images/landing_linkedin_logo.svg";
 import chevron_down from "../../res/images/chevron_down.svg"
 import Carousel from "../../components/Carousel/Carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 // Landing page component
 class Landing extends Component {
