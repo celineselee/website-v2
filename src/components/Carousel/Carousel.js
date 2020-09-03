@@ -42,3 +42,7 @@ class ReactSlickDemo extends React.Component {
 }
 
 export default ReactSlickDemo;
+
+// Used https://github.com/kenwheeler/slick/
+// yarn add react-slick
+// npm install slick-carousel
