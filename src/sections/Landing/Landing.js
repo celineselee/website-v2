@@ -20,6 +20,7 @@ import facebook from "../../res/images/landing_fb_logo.svg";
 import instagram from "../../res/images/landing_insta_logo.svg";
 import linkedin from "../../res/images/landing_linkedin_logo.svg";
 import chevron_down from "../../res/images/chevron_down.svg"
+import Carousel from "../../components/Carousel/Carousel";
 
 // Landing page component
 class Landing extends Component {
@@ -61,7 +62,7 @@ class Landing extends Component {
 
           {/*Right column - Image*/}
           <StyledGridRightColumn width={8} verticalAlign='middle'>
-            <StyledLandingImage src={placeholder}/>
+          <Carousel />
           </StyledGridRightColumn>
         </StyledGridWrapper>
 

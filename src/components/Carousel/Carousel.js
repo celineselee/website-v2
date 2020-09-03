@@ -45,3 +45,4 @@ export default ReactSlickDemo;
 // Used https://github.com/kenwheeler/slick/
 // yarn add react-slick
 // npm install slick-carousel
+// git clone https://github.com/kenwheeler/slick.git
