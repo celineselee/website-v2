@@ -1,21 +1,44 @@
 import React from "react";
-import { Carousel } from "react-responsive-carousel";
+import Slider from "react-slick";
+import { Image } from "semantic-ui-react";
+import "./styles.css";
+import { StyledImage } from "./styles";
 
-import { Image } from 'semantic-ui-react'
+import l1 from "../../res/images/landing1.jpg";
+import l2 from "../../res/images/landing2.jpg";
+import l3 from "../../res/images/landing3.jpg";
+import l4 from "../../res/images/landing4.jpg";
+import l5 from "../../res/images/landing5.jpg";
 
-export default () => (
-  <Carousel autoPlay >
-    <div>
-    <Image src="http://lorempixel.com/output/cats-q-c-640-480-1.jpg" style={{borderRadius: "30px"}} />
-    </div>
-    <div>
-      <img alt="" src="http://lorempixel.com/output/cats-q-c-640-480-2.jpg" style={{borderRadius: "30px"}}  />
-    </div>
-    <div>
-      <img alt="" src="http://lorempixel.com/output/cats-q-c-640-480-3.jpg" style={{borderRadius: "30px"}}  />
-    </div>
-    <div>
-      <img alt="" src="http://lorempixel.com/output/cats-q-c-640-480-4.jpg" style={{borderRadius: "30px"}}  />
-    </div>
-  </Carousel>
-);
+var settings = {
+  autoplay: true,
+  dots: true,
+  fade: true,
+};
+class ReactSlickDemo extends React.Component {
+  render() {
+    return (
+      <div className="container">
+        <Slider {...settings}>
+          <div>
+            <StyledImage src={l1} size="massive" />
+          </div>
+          <div>
+            <StyledImage src={l2} size="massive" />
+          </div>
+          <div>
+            <StyledImage src={l3} size="massive" />
+          </div>
+          <div>
+            <StyledImage src={l4} size="massive" />
+          </div>
+          <div>
+            <StyledImage src={l5} size="massive" />
+          </div>
+        </Slider>
+      </div>
+    );
+  }
+}
+
+export default ReactSlickDemo;
